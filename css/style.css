@@ -7,6 +7,8 @@
 a {
     color: blue;
 }
+
+/* PSEUDO CLASES */
 a:visited {
     color: red;
 }
@@ -27,4 +29,12 @@ p:not(.wonders) {
 }
 .container :nth-child(3) {
     color:chocolate ;
+}
+
+/* PSEUDO ELEMENTS */
+h1::before {
+    content: "=D ";
+}
+h1::after {
+    content: " (=";
 }
