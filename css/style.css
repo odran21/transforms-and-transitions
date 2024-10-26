@@ -2,9 +2,29 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 62.5%;
 }
 
-p {
+a {
     color: blue;
+}
+a:visited {
+    color: red;
+}
+
+a:hover {
+    background-color: yellow;
+}
+
+p:not(.wonders) {
+    color: yellowgreen;
+}
+
+.container :nth-child(1) {
+    color: darkblue;
+}
+.container :nth-child(2) {
+    color: aqua;
+}
+.container :nth-child(3) {
+    color:chocolate ;
 }
